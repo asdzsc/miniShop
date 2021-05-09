@@ -1,0 +1,16 @@
+<view>
+    <Tabs tabs="{{tabs}}" bindtabItemChange="handleBindItemTap">
+        <block wx:if="{{tabs[0].isActive}}">
+                全部          
+        </block>
+        <block wx:elif="{{tabs[1].isActive}}">
+            待付款
+        </block>
+        <block wx:elif="{{tabs[2].isActive}}">
+            待收货
+        </block>
+                <block wx:elif="{{tabs[3].isActive}}">
+            退款/退货
+        </block>
+    </Tabs>
+</view>

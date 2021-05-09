@@ -1,0 +1,92 @@
+page {
+  padding-bottom: 90rpx;
+}
+.swiper_detail swiper {
+  text-align: center;
+  height: 65vw;
+}
+.swiper_detail swiper image {
+  width: 60%;
+}
+.shop_wrap .shop_price {
+  color: var(--themeColor);
+  padding: 0 10rpx;
+  font-size: 32rpx;
+}
+.shop_wrap .shop_desc {
+  display: flex;
+  padding: 10rpx 15rpx;
+}
+.shop_wrap .shop_desc .shop_name {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  flex: 5;
+  color: #000;
+  padding-right: 15rpx;
+}
+.shop_wrap .shop_desc .shop_star {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  border-left: 5rpx solid #eee;
+}
+.shop_wrap .shop_desc .shop_star .icon-shoucang1 {
+  color: var(--themeColor);
+}
+.shop_detail .shop_detail_title {
+  border-top: 10rpx solid #eee;
+  border-bottom: 10rpx solid #eee;
+  padding: 15rpx;
+  color: var(--themeColor);
+}
+.btm_tool {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 90rpx;
+  display: flex;
+  background: #fff;
+  border-top: 1rpx solid #ccc;
+}
+.btm_tool .btn_item {
+  text-align: center;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 45rpx;
+  align-items: center;
+  font-style: 24rpx;
+  position: relative;
+}
+.btm_tool .btn_item button {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  height: 100%;
+}
+.btm_tool .btn_cart {
+  text-align: center;
+  line-height: 90rpx;
+  flex: 2;
+  background: var(--themeColor);
+  border-top-left-radius: 50rpx;
+  border-bottom-left-radius: 50rpx;
+  color: #fff;
+  font-size: 30rpx;
+}
+.btm_tool .btn_buy {
+  flex: 2;
+  line-height: 90rpx;
+  border-top-right-radius: 50rpx;
+  background: #f00;
+  border-bottom-right-radius: 50rpx;
+  color: #fff;
+  font-size: 30rpx;
+}

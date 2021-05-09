@@ -1,0 +1,6 @@
+<view class="wrap">
+    <image  class="img" src="{{src}}" mode="widthFix"/>
+    <icon class="icon" type="clear" size="23" color="red">
+    </icon>
+</view>
+  

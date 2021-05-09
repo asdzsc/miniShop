@@ -1,0 +1,9 @@
+{
+    "less.compile": {
+        "outExt": ".wxss"
+    },
+    "files.associations": {
+        "*.wxss": "css",
+        "*.wxml": "html"
+    }
+}
